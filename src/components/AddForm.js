@@ -32,7 +32,7 @@ const AddForm = () => {
       <FormGroup>
         <Form.Control 
           type="text"
-          placeholer="Name *"
+          placeholder="Full name"
           name="name"
           value={name}
           onChange={e => onInputChange(e)}
@@ -42,7 +42,7 @@ const AddForm = () => {
       <FormGroup>
         <Form.Control 
           type="email"
-          placeholer="Email *"
+          placeholder="Email address"
           name="email"
           value={email}
           onChange={e => onInputChange(e)}
@@ -52,7 +52,7 @@ const AddForm = () => {
       <FormGroup>
         <Form.Control 
           as="textarea"
-          placeholer="Address"
+          placeholder="Address"
           name="address"
           value={address}
           onChange={e => onInputChange(e)}
@@ -62,7 +62,7 @@ const AddForm = () => {
       <FormGroup>
         <Form.Control 
           type="text"
-          placeholer="Phone"
+          placeholder="Phone number"
           name="phone"
           value={phone}
           onChange={e => onInputChange(e)}
