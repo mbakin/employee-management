@@ -27,7 +27,7 @@ const EditForm = ({theEmployee}) => {
       <FormGroup>
         <Form.Control 
           type="text"
-          placeholer="Name *"
+          placeholder="Full name"
           name="name"
           value={name}
           onChange={(e) => setName(e.target.value)}
@@ -37,7 +37,7 @@ const EditForm = ({theEmployee}) => {
       <FormGroup>
         <Form.Control 
           type="email"
-          placeholer="Email *"
+          placeholder="Email address"
           name="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -47,7 +47,7 @@ const EditForm = ({theEmployee}) => {
       <FormGroup>
         <Form.Control 
           as="textarea"
-          placeholer="Address"
+          placeholder="Address"
           name="address"
           value={address}
           onChange={(e) => setAddress(e.target.value)}
@@ -57,7 +57,7 @@ const EditForm = ({theEmployee}) => {
       <FormGroup>
         <Form.Control 
           type="text"
-          placeholer="Phone"
+          placeholder="Phone number"
           name="phone"
           value={phone}
           onChange={(e) => setPhone(e.target.value)}
